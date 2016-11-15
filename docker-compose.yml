@@ -1,0 +1,9 @@
+maven:
+  image: example/maven-spring-boot-application
+  ports:
+    - "8080:8080"
+
+gradle:
+  image: example/gradle-spring-boot-application
+  ports:
+    - "8090:8090"
